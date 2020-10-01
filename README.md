@@ -51,12 +51,12 @@ We see that it is successful when we enter the values as password.
 
                           REQUIREMENTS
 
-*$ os
-*$ sys
-*$ colorama
-*$ requests
-*$ json
-*$ re
+*$    os
+*$    sys
+*$    colorama
+*$    requests
+*$    json
+*$    re
 
 
 
