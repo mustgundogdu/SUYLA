@@ -2,12 +2,11 @@
 
 from os import system, name
 from colorama import Fore, Back, Style, init
-import socket,sys
+import sys
 import requests
 import time
 import json
 import re
-import time
 init(autoreset=True)
 
 
