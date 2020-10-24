@@ -690,28 +690,30 @@ class free_intruder:
                     
                     
                     
-                    elif i_cmd == 'help':
+                elif i_cmd == 'help':
 
-                        print(Fore.BLUE+"{COMMAND LIST}")
-                        print(Fore.GREEN+"[quit], [edit], [url], [send], [intruder], [help]")
+                    print(Fore.BLUE+"{COMMAND LIST}")
+                    print(Fore.GREEN+"[quit], [edit], [url], [send], [intruder], [help], [bliend]")
 
-                        print(Fore.GREEN+"[quit] => Program Exit")
-                        print(Fore.GREEN+"[edit] => HTML Header Edit")
-                        print(Fore.GREEN+"[blind] => Try Organized Html Header With payload Wordlist")
-                        print(Fore.GREEN+"[send] => Send Edit HTTP HEADER target domain address and Receive Response")
-                        print(Fore.GREEN+"[clear] => Clear Terminal Screen")
+                    print(Fore.GREEN+"[quit] => Program Exit")
+                    print(Fore.GREEN+"[edit] => HTML Header Edit")
+                    print(Fore.GREEN+"[blind] => Try Organized Html Header With payload Wordlist")
+                    print(Fore.GREEN+"[send] => Send Edit HTTP HEADER target domain address and Receive Response")
+                    print(Fore.GREEN+"[clear] => Clear Terminal Screen")
+                    print(Fore.GREEN+"[url] => Operations menu for your Target Domain ")
                     
-                        print("")
-                        print("")
-                        print(Fore.GREEN+"{INPUT CHOOSE LIST}")
+                    print("")
+                    print("")
+                    print(Fore.GREEN+"{INPUT CHOOSE LIST}")
 
-                        print(Fore.BLUE+"[HTTP HEADER>>] => ENTRIES TAKEN BY SELECTING FROM DEFAULT HTTP HEADERS")
-                        print(Fore.BLUE+"[HTTP HEADER VALUE>>] => VALUE ENTRY OF THE HTTP HEADER RECEIVED AS INPUT")
-                        print(Fore.BLUE+"[Word>>] => CHECK TRUE RESPONSE FOR BLIND INJECTION ATTACK")            
+                    print(Fore.BLUE+"[HTTP HEADER>>] => ENTRIES TAKEN BY SELECTING FROM DEFAULT HTTP HEADERS")
+                    print(Fore.BLUE+"[HTTP HEADER VALUE>>] => VALUE ENTRY OF THE HTTP HEADER RECEIVED AS INPUT")
+                    print(Fore.BLUE+"[Word>>] => CHECK TRUE RESPONSE FOR BLIND INJECTION ATTACK")     
+                    print(Fore.BLUE+"[length] => NUMBER OF ATTEMPTS IF TRYING TO GIVE A BLIEND INJECTION TO THE TARGET DOMAIN")
                     
 
-                    elif i_cmd == 'clear':
-                        self.clear()
+                elif i_cmd == 'clear':
+                    self.clear()
 
         except KeyboardInterrupt:
             print("[-] EXITING [-]")
@@ -729,14 +731,6 @@ class free_intruder:
                             
                  
                             
-    def help(self):
-        print("{COMMAND LIST}")
-        print("[quit], [edit], [url], [send], [blind], [help]")
-        
-        print("{INPUT COMMAND INFORMATION}")
-        print("")
-
-
 
 
 if __name__ == '__main__':
