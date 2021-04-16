@@ -2,7 +2,7 @@
 FREE  ENUMERATING IDENTIFIERS
 
 With suyla, it is a vital tool that aims to manipulate the http headers sent to the target system using the requests module and perform  in blind injection. 
-Documentation https://docs.unsafe-inline.com/inline/suyla-tool
+Documentation -> https://docs.unsafe-inline.com/inline/suyla-tool
 
 ~The use of the tool is shown in the portswigger blind injection lab as follows.
 
